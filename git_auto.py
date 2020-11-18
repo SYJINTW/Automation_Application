@@ -1,5 +1,7 @@
 import os
-
+print("\n---- STATUS ----\n")
+os.system("git status")
+print("\n----------------\n")
 add_flag = int(input("Add or not? (1/0): "))
 if add_flag == 1:
 	os.system("git add .")
